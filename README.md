@@ -1,6 +1,6 @@
 # Proyecto de Series de Tiempo - Análisis Predictivo Avanzado
 
-Este proyecto fue desarrollado como parte de la materia **Análisis Predictivo Avanzado** en la facultad. En él, analizamos un conjunto de datos de la ciudad de Tetuán, situada en el norte de Marruecos, con el propósito de estudiar las relaciones entre las **variables ambientales** (temperatura, humedad, presión atmosférica) y el **consumo de energía** en tres zonas específicas de la ciudad: **Quads**, **Smir** y **Boussafou**.
+Este proyecto fue desarrollado como parte de la materia **Análisis Predictivo Avanzado** en la facultad. Analizamos un conjunto de datos de la ciudad de Tetuán, situada en el norte de Marruecos, con el propósito de estudiar las relaciones entre las **variables ambientales** (temperatura, humedad, presión atmosférica) y el **consumo de energía** en tres zonas específicas de la ciudad: **Quads**, **Smir** y **Boussafou**.
 
 ## Análisis Realizado
 
