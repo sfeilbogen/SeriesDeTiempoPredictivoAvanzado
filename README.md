@@ -1,4 +1,4 @@
-# Proyecto Series de Tiempo - Análisis Predictivo Avanzado
+# Proyecto de Series de Tiempo - Análisis Predictivo Avanzado
 
 Este proyecto fue desarrollado como parte de la materia **Análisis Predictivo Avanzado** en la facultad. En él, analizamos un conjunto de datos de la ciudad de Tetuán, situada en el norte de Marruecos, con el propósito de estudiar las relaciones entre las **variables ambientales** (temperatura, humedad, presión atmosférica) y el **consumo de energía** en tres zonas específicas de la ciudad: **Quads**, **Smir** y **Boussafou**.
 
@@ -25,3 +25,15 @@ Desarrollamos y ajustamos distintos modelos para predecir el consumo energético
 - **ARIMA (Autoregressive Integrated Moving Average)**: Modelo utilizado para capturar tanto la autocorrelación como la diferenciación necesaria para que las series sean estacionarias.
 - **Tendencia cuadrática**: Aplicada para capturar la evolución a largo plazo del consumo, incorporando una curva cuadrática en lugar de una simple línea recta.
 - **Transformación logarítmica**: Empleada para estabilizar la varianza y manejar variaciones exponenciales, mejorando así la precisión del modelo.
+
+### 4. Partición
+Dividimos los datos en conjuntos de **entrenamiento** y **prueba** para poder ajustar y evaluar los modelos de manera adecuada.
+
+### 5. Definición del modelo
+Seleccionamos los modelos y definimos los parámetros basados en el análisis previo para capturar los patrones más importantes de las series temporales.
+
+### 6. Ajuste del modelo a los datos de entrenamiento
+Ajustamos los modelos elegidos utilizando los datos de entrenamiento, optimizando los parámetros para obtener el mejor ajuste posible.
+
+### 7. Evaluación del modelo en datos de prueba
+Evaluamos la precisión de los modelos en los datos de prueba utilizando el **Root Mean Squared Error (RMSE)** como métrica principal para medir la exactitud de las predicciones.
